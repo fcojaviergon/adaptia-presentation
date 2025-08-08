@@ -55,6 +55,11 @@ const AdaptiaPresentation = () => {
       id: 8,
       title: "⚙️ Stack Tecnológico",
       component: <TechStackSlide />
+    },
+    {
+      id: 9,
+      title: "💰 Propuesta Final",
+      component: <FinalPriceSlide />
     }
   ];
 
@@ -401,6 +406,64 @@ const TimelineSlide = () => {
     </div>
   );
 };
+
+const FinalPriceSlide = () => (
+  <div style={{textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '60vh'}}>
+    <h1 style={{
+      fontSize: '8rem',
+      fontWeight: 'bold',
+      background: 'linear-gradient(to right, #059669, #10b981)',
+      backgroundClip: 'text',
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor: 'transparent',
+      marginBottom: '2rem',
+      textShadow: '0 4px 8px rgba(0,0,0,0.1)'
+    }}>
+      $8,000 USD
+    </h1>
+    
+    <div style={{
+      background: 'linear-gradient(to right, #dbeafe, #bfdbfe)',
+      borderRadius: '1.5rem',
+      padding: '3rem',
+      maxWidth: '600px',
+      width: '100%'
+    }}>
+      <h2 style={{
+        fontSize: '2rem',
+        fontWeight: '600',
+        color: '#1e40af',
+        marginBottom: '1.5rem'
+      }}>
+        💼 Propuesta de Desarrollo MVP
+      </h2>
+      
+      <div style={{fontSize: '1.25rem', color: '#1d4ed8', lineHeight: '1.8'}}>
+        <p style={{marginBottom: '1rem'}}>
+          <strong>✅ Desarrollo completo en 23 días hábiles</strong>
+        </p>
+        <p style={{marginBottom: '1rem'}}>
+          <strong>✅ Equipo senior especializado</strong>
+        </p>
+        <p style={{marginBottom: '1rem'}}>
+          <strong>✅ Stack tecnológico moderno</strong>
+        </p>
+        <p>
+          <strong>✅ Listo para 30+ clientes piloto</strong>
+        </p>
+      </div>
+    </div>
+    
+    <div style={{
+      marginTop: '2rem',
+      fontSize: '1.125rem',
+      color: '#6b7280',
+      fontStyle: 'italic'
+    }}>
+      Inversión total para MVP funcional y escalable
+    </div>
+  </div>
+);
 
 const TechStackSlide = () => {
   const frontendTech = [
