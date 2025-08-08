@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adaptia-presentation/static/css/main.f57754d0.css",
+    "main.js": "/adaptia-presentation/static/js/main.f8c84f0e.js",
+    "static/js/453.45a9a2fa.chunk.js": "/adaptia-presentation/static/js/453.45a9a2fa.chunk.js",
+    "index.html": "/adaptia-presentation/index.html",
+    "main.f57754d0.css.map": "/adaptia-presentation/static/css/main.f57754d0.css.map",
+    "main.f8c84f0e.js.map": "/adaptia-presentation/static/js/main.f8c84f0e.js.map",
+    "453.45a9a2fa.chunk.js.map": "/adaptia-presentation/static/js/453.45a9a2fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f57754d0.css",
+    "static/js/main.f8c84f0e.js"
+  ]
+}
