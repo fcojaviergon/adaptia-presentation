@@ -399,7 +399,7 @@ const TimelineSlide = () => {
       </div>
       
       <div className="alert-box">
-        <h3 className="alert-title">⏱️ Total: 23 días hábiles</h3>
+        <h3 className="alert-title">⏱️ Total: 25 días hábiles</h3>
         <p className="alert-text mb-2"><strong>Equipo:</strong> 1 AI Engineer senior + 1 FE/BE mid</p>
         <p className="alert-text">Incluye integración, QA básico y buffers para pruebas piloto</p>
       </div>
@@ -419,7 +419,7 @@ const FinalPriceSlide = () => (
       marginBottom: '2rem',
       textShadow: '0 4px 8px rgba(0,0,0,0.1)'
     }}>
-      $8,000 USD
+      $7,000 USD
     </h1>
     
     <div style={{
@@ -440,7 +440,7 @@ const FinalPriceSlide = () => (
       
       <div style={{fontSize: '1.25rem', color: '#1d4ed8', lineHeight: '1.8'}}>
         <p style={{marginBottom: '1rem'}}>
-          <strong>✅ Desarrollo completo en 23 días hábiles</strong>
+          <strong>✅ Desarrollo completo en 25 días hábiles</strong>
         </p>
         <p style={{marginBottom: '1rem'}}>
           <strong>✅ Equipo senior especializado</strong>
@@ -561,7 +561,7 @@ const InfrastructureSlide = () => {
     { item: "SendGrid (emails)", cost: "$15 USD" },
     { item: "OpenAI API (incluye iteraciones +20%)", cost: "$40-70$ USD" },
     { item: "Tráfico/transferencias", cost: "$10 USD" },
-    { item: "TOTAL MENSUAL", cost: "$190-260 USD", isTotal: true }
+    { item: "TOTAL MENSUAL", cost: "$120-200 USD", isTotal: true }
   ];
 
   return (
